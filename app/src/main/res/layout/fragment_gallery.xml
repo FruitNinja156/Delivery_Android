@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:text="Cart"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginBottom="60dp"
+        android:hint="items here"
+        android:padding="10dp"
+        android:textColor="#ff991610"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/priceView"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textAlignment="center"
+        android:textColor="#ff991610"
+        android:hint="price here"
+        android:textSize="15sp"
+        android:layout_marginBottom="60dp"/>
+
+    <Button
+        android:id="@+id/paypal"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:onClick="open_paypal_web"
+        android:text="Paypal" />
+
+    <Button
+        android:id="@+id/cashapp"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:onClick="open_cashapp_web"
+        android:text="CashApp" />
+
+</LinearLayout>
