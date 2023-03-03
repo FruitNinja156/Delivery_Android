@@ -1,5 +1,5 @@
 # Delivery_Android
-Native Android Delivery App!
+Native Android Delivery App V1.0!
 
 
 The app is a native android app
